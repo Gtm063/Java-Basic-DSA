@@ -15,7 +15,7 @@ public class MountainArray {
             if(arr[mid]>arr[mid+1]){
                 max=mid;
                 //we are at decreasing part so
-                end=mid;//ass arr[mid] is greater so could be ans also
+                end=mid;//as arr[mid] is greater so could be ans also
             }
             else{
                 max=mid+1;
