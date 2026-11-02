@@ -22,8 +22,8 @@ public class MountainArray {
                 start=mid+1;//here arr[mid+1]is greater than arr[mid] so check from arr[mid+1]
             }
         }
-       // return max;    is correct and also
-        //we know from above steps the start and ending will point to the same element that is greatest element
+       // return max;    is also correct
+        //we know from above steps the start and ending will point to the same element that is the greatest element
         return start;
     }
 }
