@@ -41,6 +41,7 @@ public class RotatedBin_search {
     }
 
     static int findPivot(int[] arr) {
+        //NOTE:: this will not work if there are duplicate numbers!!
         int start = 0;
         int end = arr.length - 1;
         while (start <= end) {
