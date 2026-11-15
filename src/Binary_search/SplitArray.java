@@ -15,9 +15,9 @@ public class SplitArray {
             //min ans=max element in the array (if no. of element=m)
 
             start=Math.max(start,nums[i]);
+            //at the end it will contain the max item in the array
 
             //max ans=sum of all element of array (if m=1)
-         //at the end it will contain the max item in the array
             end=end+nums[i];
         }
 
