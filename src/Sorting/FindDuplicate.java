@@ -1,5 +1,5 @@
 package Sorting;
-
+//https://leetcode.com/problems/find-the-duplicate-number/description/
 public class FindDuplicate {
     public static void main(String[] args) {
        int[] nums = {1,3,4,2,2};
